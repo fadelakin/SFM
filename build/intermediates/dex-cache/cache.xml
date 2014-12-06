@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Fisher/android-sdk/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Users/Fisher/AndroidStudioProjects/InteractiveStory/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-9194f5f2f01284261e773cdef123b5064e81bddb.jar" />
+    </item>
+    <item
+        jar="/Users/Fisher/AndroidStudioProjects/InteractiveStory/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/Fisher/AndroidStudioProjects/InteractiveStory/app/build/intermediates/pre-dexed/debug/classes-73be414f9577b12a9e4d19563a4f669dadcd111a.jar" />
+    </item>
+    <item
+        jar="/Users/Fisher/AndroidStudioProjects/InteractiveStory/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/Fisher/AndroidStudioProjects/InteractiveStory/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-ee8965b245afb012ab4a8fad7df20d5ca14beaa7.jar" />
+    </item>
+    <item
+        jar="/Users/Fisher/AndroidStudioProjects/InteractiveStory/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/Fisher/AndroidStudioProjects/InteractiveStory/app/build/intermediates/pre-dexed/debug/classes-08302cec1250ce21f3355d3410adedbbb3e343b0.jar" />
+    </item>
+
+</items>
