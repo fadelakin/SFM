@@ -1,5 +1,6 @@
 package com.fisheradelakin.interactivestory;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -28,7 +29,13 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 String name = mNameField.getText().toString();
                 Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
+                startStory();
             }
         });
+    }
+
+    private void startStory() {
+        Intent intent = new Intent(this, StoryActivity.class);
+        startActivity(intent);
     }
 }
