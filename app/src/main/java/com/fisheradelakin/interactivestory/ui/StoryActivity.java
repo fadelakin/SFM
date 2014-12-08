@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.fisheradelakin.interactivestory.R;
+import com.fisheradelakin.interactivestory.model.Page;
 
 
 public class StoryActivity extends ActionBarActivity {
