@@ -1,14 +1,13 @@
-package com.fisheradelakin.interactivestory;
+package com.fisheradelakin.interactivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+
+import com.fisheradelakin.interactivestory.R;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -28,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 String name = mNameField.getText().toString();
-                Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
                 startStory(name);
             }
         });

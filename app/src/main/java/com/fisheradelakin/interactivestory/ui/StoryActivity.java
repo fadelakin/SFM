@@ -1,11 +1,11 @@
-package com.fisheradelakin.interactivestory;
+package com.fisheradelakin.interactivestory.ui;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import com.fisheradelakin.interactivestory.R;
 
 
 public class StoryActivity extends ActionBarActivity {
