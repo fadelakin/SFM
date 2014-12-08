@@ -49,4 +49,8 @@ public class Story {
                 R.drawable.page6,
                 "You arrive home on Earth. While your mission was a success, you forever wonder what was sending that signal. Perhaps a future mission will be able to investigate...");
     }
+
+    public Page getPage(int pageNumber) {
+        return mPages[pageNumber];
+    }
 }
